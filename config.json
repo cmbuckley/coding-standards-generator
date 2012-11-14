@@ -1,0 +1,53 @@
+{
+    "encoding": "utf8",
+    "format": "unix",
+    "indentation": {
+        "character": "space",
+        "count": 4
+    },
+    "length": 80,
+    "braces": "k&r",
+    "variables": {
+        "hungarian": false,
+        "style": "camel",
+        "privacy": false
+    },
+    "structures": {
+        "whitespace": {
+            "opening": {
+                "before": true,
+                "after": false
+            },
+            "closing": {
+                "before": false,
+                "after": true
+            }
+        },
+        "if": {},
+        "for": {
+            "terminator": {
+                "before": false,
+                "after": true
+            }
+        },
+        "while": {},
+        "switch": {
+            "indentation": 1,
+            "default": true
+        },
+        "try": {},
+        "return": {
+            "parentheses": false
+        }
+    },
+    "operators": {
+        "binary": {
+            "whitespace": true
+        }
+    },
+    "languages": {
+        "javascript": {},
+        "php": {},
+        "css": {}
+    }
+}
