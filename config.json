@@ -6,7 +6,7 @@
         "count": 4
     },
     "length": 80,
-    "braces": "k&r",
+    "braces": "otb",
     "variables": {
         "hungarian": false,
         "style": "camel",
@@ -32,7 +32,11 @@
         },
         "while": {},
         "switch": {
-            "indentation": 1,
+            "indentation": {
+                "case": 1,
+                "statement": 2,
+                "break": 2
+            },
             "default": true
         },
         "try": {},
