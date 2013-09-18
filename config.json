@@ -23,7 +23,11 @@
                 "after": true
             }
         },
-        "if": {},
+        "if": {
+            "else": {
+                "cuddled": true
+            }
+        },
         "for": {
             "terminator": {
                 "before": false,

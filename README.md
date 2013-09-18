@@ -36,6 +36,12 @@ Each individual control structure (`if`, `for`, `while`, `switch`, `try`, `retur
 * `opening` defines whether a space character should be inserted `before` and `after` the opening parenthesis of a control block.
 * `closing` defines whether a space character should be inserted `before` and `after` the closing parenthesis of a control block.
 
+#### If Statements
+
+The `else` option defines properties unique to `else` statements:
+
+* `cuddled` defines whether the `else` statement should be on the same line as the closing brace of the `if` statement.
+
 #### For Loops
 
 `terminator` defines whether a space character should be inserted `before` and `after` the expression terminator (e.g. semicolon).
