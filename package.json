@@ -1,0 +1,9 @@
+{
+    "name": "standards-generator",
+    "description": "A multi-language coding standards generator",
+    "version": "0.0.1",
+    "dependencies": {
+        "markdown": "~0.5",
+        "mu2": "~0.5"
+    }
+}
